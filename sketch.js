@@ -50,7 +50,7 @@ function setup() {
   osc.start();
   
   frameRate(10);
-  background(0);
+  background(20);
   many = random(fibo);
   X = random(0, windowWidth-100);
   Y = random(0, windowHeight/2);
@@ -100,7 +100,7 @@ function draw() {
 function resetSketch() {
   //save();
   clear();
-  background(0);
+  background(20);
   bubbles = [];
   palette = [];
   X = random(0, windowWidth-100);
