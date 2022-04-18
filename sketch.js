@@ -50,7 +50,7 @@ function setup() {
   osc.start();
   
   frameRate(10);
-  background(20);
+  background(5);
   many = random(fibo);
   X = random(0, windowWidth-100);
   Y = random(0, windowHeight/2);
